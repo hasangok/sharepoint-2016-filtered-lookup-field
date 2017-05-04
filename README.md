@@ -1,6 +1,6 @@
 # SharePoint 2016 Filtered Lookup Field
 
-This is SharePoint 2016 port of **SharePoint 2010 Filtered Lookup** provided [here](http://sp2010filteredlookup.codeplex.com/) by Dev4Side, which is also a port of the package provided [here](http://filteredlookup.codeplex.com/) :)
+This is SharePoint 2016 port of *SharePoint 2010 Filtered Lookup* provided [here](http://sp2010filteredlookup.codeplex.com/) by Dev4Side, which is also a port of the package provided [here](http://filteredlookup.codeplex.com/) :)
 
 I updated namespaces, pages and SharePoint binaries (to use version 16.0.0.0). Description below is copied from [here](http://filteredlookup.codeplex.com/) and all the features are working perfectly with SharePoint 2016.
 
@@ -14,6 +14,13 @@ Below is a few of the features offered by Filtered Lookup field over standard Sh
 * Supports retrieving data recursively using either list views or dynamic queries
 * Supports MultiLookup with filtered data
 * Same look and feel as default SharePoint Lookup and MultiLookup (i.e. in list forms)
+
+## Installation
+Download wsp package from [here](https://github.com/hasangok/sharepoint-2016-filtered-lookup-field/releases), put it into your SharePoint server machine and run the following commands in *SharePoint 2016 Management Shell*.
+```powershell
+Add-SPSolution "/path/to/Dev4Side.SP2016.FilteredLookup.wsp"
+Install-SPUserSolution –Identity Dev4Side.SP2016.FilteredLookup.wsp –GACDeployment
+```
 
 ## Screenshot
 ![filtered_lookup_sp2016.png](https://raw.githubusercontent.com/hasangok/sharepoint-2016-filtered-lookup-field/master/filtered_lookup_sp2016.png)
