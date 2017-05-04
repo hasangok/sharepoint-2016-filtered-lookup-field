@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="5dcda1dd-2183-48f6-b330-978a1c891baa" solutionId="5dcda1dd-2183-48f6-b330-978a1c891baa" resetWebServer="false" sharePointProductVersion="16.0" name="Dev4Side.SP2016.FilteredLookup" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <projectItems>
+    <projectItemReference itemId="8fa6f863-d99e-404f-b362-56d4d2e63221" />
+    <projectItemReference itemId="7050cd77-447b-47aa-94fd-da0ce3962ee5" />
+  </projectItems>
+</package>

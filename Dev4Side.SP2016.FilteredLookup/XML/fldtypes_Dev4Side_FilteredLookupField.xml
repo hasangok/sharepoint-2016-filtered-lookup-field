@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">FilteredLookupField</Field>
+    <Field Name="ParentType">Lookup</Field>
+    <Field Name="TypeDisplayName">Filtered Lookup</Field>
+    <Field Name="TypeShortDescription">Filtered Lookup (Information from all sites in site collection)</Field>
+    <!--<Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowOnListAuthoringPages">TRUE</Field>
+    <Field Name="ShowOnDocumentLibraryAuthoringPages">TRUE</Field>
+    <Field Name="ShowOnSurveyAuthoringPages">TRUE</Field>
+    <Field Name="ShowOnColumnTemplateAuthoringPages">TRUE</Field>-->
+    <Field Name="FieldTypeClass">Dev4Side.SP2016.FilteredLookup.FilteredLookupField, Dev4Side.SP2016.FilteredLookup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=af31a3eeecf7add1</Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/15/FilteredLookupFieldEditor.ascx</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Name="QueryFilterAsString" Hidden="TRUE" DisplayName="Query Filter" Type="Text">
+          <Default />
+        </Field>
+				<Field Name="ListViewFilter" Hidden="TRUE" DisplayName="List View Filter" Type="Text">
+					<Default />
+				</Field>
+				<Field Name="SupportsMultipleValues" Hidden="TRUE" DisplayName="Multiple Values" Type="Text">
+					<Default />
+				</Field>
+				<Field Name="IsFilterRecursive" Hidden="TRUE" DisplayName="Recursive Filter" Type="Text">
+					<Default />
+				</Field>
+			</Fields>
+    </PropertySchema>
+  </FieldType>
+</FieldTypes>
