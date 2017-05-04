@@ -1,6 +1,6 @@
 # SharePoint 2016 Filtered Lookup Field
 
-This is SharePoint 2016 port of *SharePoint 2010 Filtered Lookup* provided [here](http://sp2010filteredlookup.codeplex.com/) by Dev4Side, which is also a port of the package provided [here](http://filteredlookup.codeplex.com/) :)
+This is SharePoint 2016 port of *SharePoint 2010 Filtered Lookup* provided [here](http://sp2010filteredlookup.codeplex.com/) by Dev4Side, which is also a port of the package provided [here](http://filteredlookup.codeplex.com/) :) 2013 version can be found [here](https://github.com/hasangok/sharepoint-2013-filtered-lookup-field)
 
 I updated namespaces, pages and SharePoint binaries (to use version 16.0.0.0). Description below is copied from [here](http://filteredlookup.codeplex.com/) and all the features are working perfectly with SharePoint 2016.
 
