@@ -19,7 +19,7 @@ Below is a few of the features offered by Filtered Lookup field over standard Sh
 Download wsp package from [here](https://github.com/hasangok/sharepoint-2016-filtered-lookup-field/releases), put it into your SharePoint server machine and run the following commands in *SharePoint 2016 Management Shell*.
 ```powershell
 Add-SPSolution "/path/to/Dev4Side.SP2016.FilteredLookup.wsp"
-Install-SPUserSolution –Identity Dev4Side.SP2016.FilteredLookup.wsp –GACDeployment
+Install-SPSolution –Identity Dev4Side.SP2016.FilteredLookup.wsp –GACDeployment
 ```
 
 ## Screenshot
